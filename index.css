@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #56b33e;   
+}
+.logo{
+    width: 128px;
+    display: flex;
+    
+}
+.navbar{
+    background: url('images/navGif7.gif')center center   repeat-x;
+    height: 50px;
+    background-color: rgb(46, 44, 44);
+}
+.seek{
+    background-color: rgb(46, 44, 44);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 70px;
+}
+.seek input{
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.playIcon{
+    margin: 0 30px;
+}
+.icons i{
+    color: white;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: blue;
+}
+.container{
+    display: flex;
+    height: 79vh;
+    width: 67%;
+    margin: 6px auto;
+    border: 4px solid gray;
+    border-radius: 10px;
+    background: url('images/bg.jpg')center center repeat;
+    background-size: contain;
+    background-position: right 1px;
+    overflow-y: auto;
+}
+.container h3{
+    color: white;
+}
+.songList{
+    position: relative;
+    
+}
+.songItem img{
+    width: 37px;
+    border: 1px solid gray;
+    border-radius: 34px;
+    margin-top: 5px;
+   
+}
+.songItem{
+    width: 100%;
+    display: flex; 
+    overflow-y: auto; 
+    border: 2px solid gray; 
+    margin-top: 6px;
+    border-radius: 15px;
+    /* background-color: blue; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.songItem span{
+    color: white;
+    padding: 5px 10px;
+}
+.songItem span i{
+    position: absolute;
+    right: 0;
+    padding: 0 5px; 
+      
+}
+.songItem span i:hover{
+    color: blue;
+    cursor: pointer;
+}
+.progressTime{
+    color: white;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+@media only screen and (max-width:608px){
+    .playIcon{
+        display: flex;
+        align-items: center;
+    }
+    .coverSpan{
+        display: flex;
+        align-items: center;
+    }
+}

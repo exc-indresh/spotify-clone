@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spotify-Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img class="logo" src="images/logo.png" alt="none">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    </div>
+    <div class="container">
+        <div class="songList">
+            <h3>NCS-No Copywrite Sound</h3>
+            <div class="songItem" id="span1">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Dil nashi status</span>
+                <span class="playIcon">
+                    <i id="1" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span2">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+    
+                <span>Serena - Safari</span>
+                <span class="playIcon">
+                    <i id="2" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span3">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Excuses(8D Audio)</span>
+                <span class="playIcon">
+                    <i id="3" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span4">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Brown rang (slow + reverb)</span>
+                <span class="playIcon">
+                    <i id="4" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span5">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Astha Gill || Sawariya</span>
+                <span class="playIcon">
+                    <i id="5" class="fa-2x songItemPlay fa-solid fa-circle-play" ></i>
+                </span>
+            </div>
+            <div class="songItem" id="span6">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Ghar se the chale</span>
+                <span class="playIcon">
+                    <i id="6" class="fa-2x songItemPlay fa-solid fa-circle-play" ></i>
+                </span>
+            </div>
+            <div class="songItem" id="span7">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Dil lutiya| jazzy B</span>
+                <span class="playIcon" >
+                    <i id="7" class="fa-2x songItemPlay fa-solid fa-circle-play" ></i>
+                </span>
+            </div>
+            <div class="songItem" id="span8">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Mai Dhoondhne ko Zamane me</span>
+                <span class="playIcon">
+                    <i id="8" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span9">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>MONTERO X BROWN</span>
+                <span class="playIcon" >
+                    <i id="9" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span10">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Oh girl you're Mine</span>
+                <span class="playIcon">
+                    <i id="10" class="fa-2x songItemPlay fa-solid fa-circle-play" ></i>
+                </span>
+            </div>
+            <div class="songItem" id="span11">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Rim Jhim (slow + reverb)</span>
+                <span class="playIcon">
+                    <i id="11" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            <div class="songItem" id="span12">
+                <span class="coverSpan"><img src="images/coverImage.png" alt="none"></span>
+                <span>Tune mari Entriyaan</span>
+                <span class="playIcon">
+                    <i id="12" class="fa-2x songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="seek" id="seekBack">
+            <input id="seek" value="0" type="range" min="0" max="100">
+        </div>
+        <div class="icons">
+            <div class="progressTime" id="progressTime">0 %</div>
+
+            <span class="backIcon">
+                <i class=" fa-2x fa-solid fa-backward" id="previous"></i>
+            </span>
+            <span class="playIcon" id="play">
+                <i class="fa-2x fa-solid fa-circle-play" id="playi"></i>
+            </span>
+            <span class="farIcon">
+                <i class="fa-2x fa-solid fa-forward" id="next"></i>
+            </span>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/644d8be0e8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
